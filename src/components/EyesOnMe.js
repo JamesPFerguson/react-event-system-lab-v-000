@@ -2,7 +2,7 @@
 import React from 'react';
 
 export default class EyesOnMe extends React.component {
-  
+
   render() {
     return(
       <div>
@@ -13,5 +13,9 @@ export default class EyesOnMe extends React.component {
 
   good() {
     console.log("Good!")
+  }
+
+  blur() {
+    console.log("Hey! Eyes on me!")
   }
 }
